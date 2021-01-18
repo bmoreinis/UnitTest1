@@ -83,3 +83,27 @@ function q5(){
   myString+="Question 5: Which line is impossible to do?<br>"
   code.innerHTML=myString;
 }
+
+/* Question 6 */
+function q6(){
+  clearCode();
+  delCode();
+  let myString="";
+  myString+="110 goTo(pantry);<br><br>\n\n";
+  myString+="120 open(pantry);<br><br>\n\n";
+  myString+="Question 6: Use these lines to answer question 6."
+  code.innerHTML=myString;
+}
+
+/* Question 6 */
+function q7(){
+  clearCode();
+  delCode();
+  let myString="";
+  myString+="110 goTo(pantry);<br><br>\n\n";
+  myString+="120 open(pantry);<br><br>\n\n";
+  myString+="130 get(peanutButterJar);<br><br>\n\n";
+  myString+="140 get(jellyJar);<br><br><br>\n\n";
+  myString+="Question 6: Use these lines to answer question 7."
+  code.innerHTML=myString;
+}

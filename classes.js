@@ -177,23 +177,25 @@ class CommandDoc{
   }
 
   get ruleList(){
-    let arrayString="";
+    let arrayString="<ol>";
     for(let j=0;j<this.rules.length;j++){
-      arrayString+=this.rules[j]+"<br>";
+      arrayString+="<li>"+this.rules[j]+"</li>";
     }
+    arrayString+="</ol>";
     return arrayString;
   }
 
   get resultList(){
-    let arrayString="";
+    let arrayString="<ol>";
     for(let j=0;j<this.result.length;j++){
-      arrayString+=this.result[j]+"<br>";
+      arrayString+="<li>"+this.result[j]+"</li>";
     }
+    arrayString+="</ol>";
     return arrayString;
   }
 
   toString() {
-    const ret ="<dt><strong>"+this.command+"("+this.argument+")"+"</strong></dt><dd><em>Rules: </em>"+this.ruleList+"</dd><dd><em>Results: </em>"+this.resultList+"</dd>\n";
+    const ret ="<dt><strong>"+this.command+"("+this.argument+")"+"</strong></dt><dd><br><em>Rules: </em>"+this.ruleList+"</dd><dd><em>Results: </em>"+this.resultList+"</dd>\n";
     return ret;
   }
 }

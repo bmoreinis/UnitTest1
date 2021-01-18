@@ -29,3 +29,12 @@ input {
     display: inline-block;
     margin-left: 10px;
 }
+
+dd {
+  color:red;
+  font-size:10pt;
+}
+dd li {
+  font-size:10pt;
+  color:blue;
+}
