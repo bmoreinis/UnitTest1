@@ -10,7 +10,7 @@ function initialize(){
 
 function start() {
   var alertArea = document.getElementById("alertArea");
-  alertArea.innerHTML="<div style=\"text-align:center;font-family:times;\"><h3 style=\"color:red;\">Welcome to the BabySister Unit Test!</h3><p>Use the documentation above a reference to answer questions in Part 1. </p> <p>Use the buttons below to write code for Part 2.</p><p><input style=\"background-color:yellow;\" type = \"button\" onclick = \"hideAlert()\" value = \"Hide This Message\"></p></div>";
+  alertArea.innerHTML="<div style=\"text-align:center;font-family:times;\"><h3 style=\"color:red;\">Welcome to the BabySister Unit Test!</h3><p>Use the documentation above a reference to answer questions in Part 1. </p> <p>Optional: Use the buttons below to write code for Part 2.</p><p><input style=\"background-color:yellow;\" type = \"button\" onclick = \"hideAlert()\" value = \"Hide This Message\"></p></div>";
 }
 
 function hideAlert() {
