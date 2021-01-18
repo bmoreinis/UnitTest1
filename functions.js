@@ -29,7 +29,7 @@ function loadDocs(){
 function showCommands(){
   var code = document.getElementById("code");
   let newCommand="";
-  let commandString="<p><input type = \"button\" onclick = \"clearCode()\" value = \"Hide Documentation\"></p>";
+  let commandString="<p style=\"text-align:center;\"><input type = \"button\" style=\"background-color:yellow;\" onclick = \"clearCode()\" value = \"Hide Documentation\"></p>";
   commandString+="<dl>";
   for(let i=0;i<commandDocs.length;i++){
     commandString+=commandDocs[i].toString();
