@@ -19,6 +19,9 @@ function hideAlert() {
 }
 
 function loadDocs(){
+  while (commandDocs.length) {
+    commandDocs.pop();
+  }
   for(let c=0;c<commandDocValues.length;c++){
     let newCommand=new CommandDoc(commandDocValues[c][0],commandDocValues[c][1],commandDocValues[c][2],commandDocValues[c][3]);
     commandDocs.push(newCommand);
@@ -36,7 +39,6 @@ function showCommands(){
   }
   commandString+="</dl>";
   code.innerHTML=commandString;
-  
 }
 
 function showCode(lineNumbers){
