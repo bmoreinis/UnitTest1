@@ -120,12 +120,12 @@ function q9(){
   clearCode();
   delCode();
   let myString="";
-  myString+="10 /* Get Peanut Butter //<br><br>";
-  myString+="20 goto(pantry)<br><br>";
-  myString+="30 open pantry;<br><br>";
-  myString+="40 get(peanut Butter Jar);<br><br>";
-  myString+="50 hold(peanutButter);<br><br>";
-  myString+="60 Close(Pantry);<br><br>";
+  myString+="10 /* Get Peanut Butter //<br>";
+  myString+="20 goto(pantry)<br>";
+  myString+="30 open pantry;<br>";
+  myString+="40 get(peanut Butter Jar);<br>";
+  myString+="50 hold(peanutButter);<br>";
+  myString+="60 Close(Pantry);<br>";
   code.innerHTML=myString;
 }
 
@@ -134,12 +134,12 @@ function q10(){
   clearCode();
   delCode();
   let myString="";
-  myString+="/* Spread Peanut Butter On Bread */<br><br>";
-  myString+="get(peanutButterJar);<br><br>";
-  myString+="scoop(peanutButter);<br><br>";
-  myString+="get(knife);<br><br>";
-  myString+="hold(peanutButterJar);<br><br>";
-  myString+="spread(peanutButter,leftSlice);<br><br>";
-  myString+="open(peanutButterJar);<br><br>";
+  myString+="/* Spread Peanut Butter On Bread */<br>";
+  myString+="get(peanutButterJar);<br>";
+  myString+="scoop(peanutButter);<br>";
+  myString+="get(knife);<br>";
+  myString+="hold(peanutButterJar);<br>";
+  myString+="spread(peanutButter,leftSlice);<br>";
+  myString+="open(peanutButterJar);<br>";
   code.innerHTML=myString;
 }
