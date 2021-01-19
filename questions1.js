@@ -99,7 +99,8 @@ function q6(){
 function q7(){
   clearCode();
   delCode();
-  loadDocs();
+  let myString="<dt><strong>scoop(CObject)</strong></dt><dd><br><em>Rules: </em><ol><li>Argument CObject is a Container Object.</li><li>CObject contains spread (SObject).</li><li>Left.holding = CObject.</li><li>CObject.open = true.</li><li>Right.holding = knife.</li></ol></dd><dd><em>Results: </em><ol><li>Knife has enough SObject to coat 1 slice.</li></ol></dd>";
+  code.innerHTML=myString;
 }
 
 /* Question 8 */
