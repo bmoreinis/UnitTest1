@@ -80,7 +80,7 @@ function q5(){
   myString+="120 hold(jellyJar);<br><br>\n\n";
   myString+="130 get(butterKnife);<br><br>\n\n";
   myString+="140 open(jellyJar);<br><br><br>\n\n";
-  myString+="Question 5: Which line is impossible to do?<br>"
+  myString+="Question 5: Which line is impossible to do in this sequence(order)?<br>"
   code.innerHTML=myString;
 }
 
