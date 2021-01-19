@@ -30,6 +30,12 @@ function loadDocs(){
   showCommands();
 }
 
+function showClasses(){
+  var alertArea = document.getElementById("alertArea");
+  alertArea.style.display = "block";
+  alertArea.innerHTML="<p style=\"text-align:center;\"><input type = \"button\" style=\"background-color:yellow;\" onclick = \"hideAlert()\" value = \"Hide Documentation\"></p>"+classDocs;
+}
+
 function showCommands(){
   var alertArea = document.getElementById("alertArea");
   let newCommand="";
