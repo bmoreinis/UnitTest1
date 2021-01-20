@@ -6,7 +6,7 @@ function q1(){
 program.push(nCL);
   var nCL = new Code("10","Put Peanut Butter Jar on Counter");
 program.push(nCL);
-  var nCL = new Command("20","goto","cupBoard");
+  var nCL = new Command("20","goTo","cupBoard");
 program.push(nCL);
   var nCL = new Command("30","get","peanutButterJar");
 program.push(nCL);
